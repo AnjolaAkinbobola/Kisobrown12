@@ -1,0 +1,92 @@
+.navbar{
+    background-color: #000000;
+    height: 80px;
+    padding: 18px;
+    position: fixed !important;
+    width: 100%;
+    z-index: 1;
+
+}
+.seclogo{
+    color: white;
+}
+.jeans{
+    font-size: 30px;
+}
+.fristbody{
+    padding: 30px;
+    height: 450px;
+    background-image: url(/assets/w3sfristpic.jpg);
+}
+.bodyword{
+    color: white;
+
+}
+.botton{
+    background-color: #000000;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 40px;
+}
+.botton:hover {
+    background-color: white;
+    color: black;
+}
+.arrival{
+    margin-bottom: 40px;
+    font-size: 70px;
+}
+.collection{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.cash{
+    font-weight: bolder !important;
+}
+
+.salesrep{
+    @media screen and (max-width:780px) {
+        text-align: center;
+    }
+}
+.sales{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.subscribe{
+    padding: 45px;
+    background-color: #000000;
+    color: white;
+}
+.subscribeb{
+    width: 100%;
+    height: 50px;
+}
+input[type=text]{
+ padding: 10px;
+}
+.buttonsubscribe{
+    width: 150px;
+    margin-top: 20px;
+    border: none;
+    background-color: tomato;
+    color: white;
+    height: 40px;
+}
+.buttonsubscribe:hover{
+    background-color: white;
+    color: black;
+}
+.sendbutton{
+    margin-bottom: 40px;
+   width: 190px;
+   background-color: #000000 ;
+   color: white;
+   border: none;
+   height: 40px; 
+}
+.sendbutton:hover{
+   background-color: gray;
+   color: black; 
+}

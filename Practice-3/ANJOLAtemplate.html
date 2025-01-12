@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .headers {
+        /* position: relative; */
+        display: flex;
+
+        box-shadow: 5px 10px 5px lightblue;
+        /* box-sizing: border-box; */
+        background-color: blue;
+        padding: 15px;
+        color: black;
+      }
+      .about {
+        padding: 10px;
+        position: absolute;
+        right: 0;
+      }
+      .imgstyle {
+        max-width: auto;
+        height: 600px;
+        background-origin: padding-box;
+        background-image: url(mans.jpg);
+        border: 5px solid blueviolet;
+        mask-repeat: no-repeat;
+      }
+      .under {
+        text-align: center;
+      }
+      .fabout {
+        margin: auto;
+      /* position: absolute;
+            left: 50%;
+            transform: translate(-50%, 50%); */
+      }
+      .img-cont{
+        width: 100%;
+        display: flex;
+      }
+      .p2 {
+        text-align: center;
+        margin-block: 20px;
+      }
+      .forms {
+        text-align: center;
+      }
+      .fons {
+        margin: auto;
+        line-height: 6px;
+      }
+      input{
+        margin: auto;
+        line-height: 2.4;
+      }
+      label{
+        text-align: center;
+      }
+      
+
+    </style>
+  </head>
+  <body>
+    <div class="headers">
+      <h1>MY ART</h1>
+      <h1 class="about">ABOUT</h1>
+    </div>
+    <br />
+    <div class="imgstyle">
+      <img src="/assets/mans.jpg" alt="mans" />
+      <img src="/assets/Untitled.png" alt="Untitled" />
+    </div>
+    <br />
+    <h2 class="under">ABOUT</h2>
+    <br />
+    <br />
+    <div class="img-cont">
+      <img class="fabout" src="Untitled.png" alt="Untitled" />
+    </div>
+    <br />
+
+    <p class="p2">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident,
+      repellat doloremque! Quia, quasi voluptatibus corporis inventore aperiam
+      amet consequuntur itaque unde tempore quas provident. Pariatur quasi porro
+      quae hic reprehenderit.
+    </p>
+    <div class="froms">
+    <form action="#">
+        <div class="fons">
+      <label class="label" for="name"><b>Name</b></label>
+      <input type="text" class="design" />
+      <label for="name"><b>Email</b></label>
+      <input type="text" class="EMail" /><br>
+      <br>
+      <label for="messsage"><b>Messsage</b></label>
+      <input type="text" name="Messsage" id="Messsage">
+      <label for="Addrees"><b>Addrees</b></label>
+      <input type="text" class="Addrees">
+      </div>
+    </form>
+    </div>
+   
+        <button type="submit" class="template" style="border: 5px solid blue; box-sizing: border-box; width: 100px; float: inline-end;"> send</button>
+        
+  </body>
+</html>

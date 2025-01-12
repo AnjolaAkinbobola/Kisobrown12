@@ -1,0 +1,296 @@
+.profileimg {
+  border-radius: 10%;
+}
+
+* {
+  max-width: 100%;
+}
+
+body {
+  background-color: lightgrey;
+}
+
+.myprotfoli {
+  color: #000;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 50px;
+  margin-left: 30px;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.headerimg {
+  border-radius: 80px;
+  width: 75px;
+}
+
+.headerflex {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 40px;
+}
+
+.divimg {
+  flex: 10%;
+}
+
+.flexprofile {
+  display: flex;
+  flex: 90%;
+}
+
+.filtervbutton {
+  background-color: black;
+  color: white;
+  width: 60px;
+  height: 40px;
+  border: none;
+}
+
+.filtervbutton:hover {
+  border: 2px solid black;
+  background-color: white;
+  color: #000;
+}
+
+.secfiltervbutton {
+  margin-left: 20px;
+  background-color: white;
+  color: black;
+  width: 80px;
+  height: 40px;
+  border: none;
+}
+
+.secfiltervbutton:hover {
+  border: 2px solid white;
+  background-color: black;
+  color: white;
+}
+
+.itembutton {
+  display: flex;
+  padding-left: 110px;
+  margin-top: 40px;
+  z-index: 2;
+}
+
+.movingbutton {
+  display: flex;
+  justify-content: center;
+}
+
+.imgbutton {
+  border: none;
+  background-color: #000;
+  color: white;
+  width: 40px;
+  height: 40px;
+}
+
+.imgsbutton {
+  border: none;
+  background-color: white;
+  color: black;
+  width: 40px;
+  height: 40px;
+}
+
+.imgsbutton:hover {
+  background-color: black;
+  color: white;
+}
+
+.imgtbutton {
+  background-color: lightgrey;
+  border: none;
+}
+
+.progressbar {
+  height: 50px;
+}
+
+.download {
+  height: 50px;
+  margin-top: 30px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  background-color: rgb(71, 70, 70);
+}
+
+.download:hover {
+  background-color: lightgrey;
+  color: black;
+}
+
+.basic {
+  margin-bottom: 20px;
+  background-color: #000;
+  height: 130px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.skill {
+  margin-top: 25px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.pro {
+  margin-bottom: 20px;
+  background-color: rgb(34, 227, 224);
+  height: 130px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.premium {
+  margin-bottom: 20px;
+  background-color: #000;
+  height: 130px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.skillstyle {
+  padding: none !important;
+  margin: none !important;
+}
+
+.signup {
+  background-color: rgb(34, 227, 224);
+  border: none;
+  width: 100px;
+  height: 50px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.divsignup {
+  margin-bottom: 20px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.changes {
+  border: 1px solid gray;
+  background-color: white;
+}
+
+.basicitem {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+
+.contactme {
+  background-color: rgb(148, 147, 147);
+  padding: 20px;
+}
+
+.email {
+  background-color: rgb(73, 73, 73);
+  border: 2px solid rgb(73, 73, 73);
+  width: 500px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chicago {
+  background-color: rgb(34, 227, 224);
+  border: 2px solid rgb(34, 227, 224);
+  width: 500px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactno {
+  background-color: rgb(73, 73, 73);
+  border: 2px solid rgb(73, 73, 73);
+  width: 500px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactmeflex {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 500px) {
+  .contactmeflex {
+    display: block;
+  }
+}
+
+.labelinfo {
+  margin-top: 20px;
+}
+
+.inputinfo {
+  width: 100%;
+  height: 45px;
+}
+
+.sendmessage {
+  background-color: #000;
+  color: white;
+  border: none;
+  margin-top: 20px;
+  height: 40px;
+}
+
+.sendmessage:hover {
+  background-color: rgb(188, 185, 185);
+  border: 2px solid black;
+  color: black;
+}
+
+.imgflex {
+  display: flex;
+}
+
+.lorem {
+  margin-right: 20px;
+}
+
+.spank {
+  background-color: rgb(121, 119, 119);
+  margin: 2px;
+  margin-bottom: 30px;
+}
+
+.footer {
+  background-color: rgb(71, 71, 71);
+  color: white;
+  padding: 30px;
+}
+
+.travel {
+  background-color: #000;
+  margin: 2px;
+  margin-bottom: 30px;
+}
+
+.relative {
+  position: relative;
+}/*# sourceMappingURL=index.css.map */

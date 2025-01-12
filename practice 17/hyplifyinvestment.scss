@@ -1,0 +1,132 @@
+.bigerdiv{
+    background-image: url(/assets/coin\ img\ hpilfy.jpg);
+    min-height: calc(538px - 46px);
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+.bighead{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: .9;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.digdiv{
+    background-color:  rgb(2, 2, 45);
+}
+.fistdiv{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.linkdiv{
+    display: flex;
+    color: white;
+    flex: 90;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.loginlink{
+    display: flex;
+    color: white;
+    flex: 10;
+    margin-top: 5px;
+}
+.svgf{
+    fill:  #fc0077;
+    width: 10px;
+}
+.head{
+    background-color: initial;
+    position: absolute;
+    width: 100%;
+    transition: .3s ease;
+    z-index: 2000;
+    position: sticky;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    color: white;
+    @media screen {
+        
+    }
+}
+.imgflex{
+    display: flex;
+    align-items: center;
+    flex: 90;
+    color: white;
+}
+.itemflex{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex: 10;
+    margin-left: 20px;
+}
+.item{
+    text-decoration: none;
+    list-style: none;
+    margin-left: 20px;
+    color: white;
+}
+.itembutton{
+    margin-left: 20px;
+    width: 80px;
+    border: 2px solid #fc0077;
+    border-radius: 7px;
+    height: 40px;
+    background-color: #fc0077;
+    color: white;
+}
+.fristbanaer{
+    flex: 1;
+    padding-top: 18.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    z-index: 20;
+    color: white;
+}
+.pfour{
+    position: absolute;
+    top: 0;
+    opacity: .2;
+    max-width: 100%;
+    width: 100%;
+    background-image: url(/assets/layer\ investment.png);
+}
+.four{
+    width: 100%;
+}
+.invest{
+    background-color: rgb(2, 2, 45);
+}
+.flaq{
+    text-align: center;
+    color: white;
+    padding: 70px;
+}
+.browns{
+    position: relative;
+    background-color: rgb(6, 6, 123);
+    opacity: .3;
+    
+}
+.bimg{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}

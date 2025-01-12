@@ -1,0 +1,123 @@
+
+.svgloction{
+    fill: white;
+    width: 12px;
+    margin-right: 10px;
+
+}
+.infoflex{
+    padding-left: 50px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: warp;
+   
+   
+}
+.infosecflex{
+    flex: 20%;
+}
+.secflex{
+    flex: 80%;
+}
+.header{
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    padding: 10px;
+
+}
+.itemflex{
+   
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: warp;
+}
+.itemflex{
+    @media screen and (max-width:780px) {
+        display: block;
+        
+        
+    }
+}
+.fitem{
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    flex: 20%;
+}
+.fitem{
+    @media screen and (max-width:780px) {
+        text-align: start;
+    }
+}
+.imgflex{
+    flex: 80%;
+}
+.btnitem{
+    text-align: center;
+    margin: 20px;
+    text-decoration: none;
+    flex: 20%;
+    color: white;
+}
+.btnsecitem{
+    text-align: center;
+    margin: 20px;
+    text-decoration: none;
+    flex: 20%;
+    border: 2px solid  rgb(84, 216, 242);
+    color: rgb(84, 216, 242);
+
+}
+.fimg{
+    background-image: url(Day.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    background-size: 100% 100%;
+}
+.caroselimg{
+    position: relative;
+    background-image: url(/assets/chicago.jpg) !important;
+    width: 100%;
+    height: 600px;
+    background-size: 100% 100%;
+}
+.caroseseclimg{
+    position: relative;
+    background: url(/assets/New\ york.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: 100% 100%;
+}
+.caroseltriimg{
+    position: relative;
+    background-image: url(/assets/los\ angls.jpg);
+    width: 100%;
+    background-size: 100% 100%;
+    height: 600px;
+   
+}
+.caroseltext{
+   color: white;
+   font-size: large;
+   padding-top: 200px;
+   padding-left: 100px;
+   box-sizing: border-box;
+   max-width: 900px;
+}
+
+.bodys{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    vertical-align: baseline;
+    align-items: center;
+    padding-top: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-sizing: inherit;
+    margin-bottom: 80px;
+    max-width: 1000px;
+}

@@ -1,0 +1,247 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+body{
+    overflow-x: hidden;
+}
+header {
+    width: 100%;
+    /* position: relative; */
+    /* display: flex; */
+}
+/* @media screen and (min-width: 892px) {
+    header{
+     max-width: 100%;   
+    }
+    ul{
+        display: grid;
+    } */
+    
+/* } */
+ul {
+    right: 0;
+    float: none;
+    display: flex;
+    list-style-type:none;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+.note {
+    color: black;
+    text-align-last: center;
+    padding: 30px;
+    /* box-sizing: ; */
+}
+form {
+    background-color: white;
+    width: 100%;
+    padding: px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+.forms  {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid lightblue;
+    border-radius: 6px;
+    box-sizing: border-box;
+
+}
+.label {
+    text-align-last: left;
+}
+.logo-cont{
+    max-width: 215px;
+}
+.logo-cont img{
+    width: 100%;
+}
+nav{
+    padding: 20px 0 !important;
+}
+.navbar-collapse{
+    justify-content: end;
+}
+/*  
+ul {
+    text-align: left;
+    list-style-type: square;
+
+}
+    */
+/* .grid-container {
+    display: grid;
+    height: 300px;
+    align-content: start;
+    grid-template-columns:auto 200px;
+    column-gap: 40px;
+    background-color: white;
+    padding: 0;
+} */
+/* .grid-container > div {
+    background-color: white;
+    text-align: left;
+    padding: 0;
+    font-size: 10px;
+} */
+/* li {
+    text-align: start;
+} */
+.grid-container{
+    column-gap: 200px;
+    grid-template-columns: 200px;
+    display: flex;
+}
+.ap{
+    display: grid;
+    list-style-type: square ;
+}
+.god {
+     width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid lightblue;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+.gods {
+    height: 200px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid lightblue;
+    border-radius: 6px;
+    box-sizing: border-box;
+
+}
+li{
+    list-style-type: none;
+}
+a{
+    white-space: nowrap;
+    font-size: 14px !important;
+}
+.myid {
+    color: blue;
+}
+.submit {
+    
+    text-align: center;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 1200px; /* Optional max width */
+    margin: 0 auto;
+}
+/* body {
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color;
+} */
+.bp{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+@media(max-width: 767px){
+.bp{
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.9;
+    flex-direction: column;
+    align-items: start;
+    padding: 40px;
+    
+}
+}
+.icon{
+    margin-right: 9px;
+    fill: blue;
+    width: 6%;
+    
+}
+.iconic{
+    margin-right: 9px;
+    fill: rgb(172, 7, 57);
+    width: 6%;
+}
+.face{
+    margin-right: 9px;
+    fill: blue;
+    width: 6%;
+}
+.print{
+    margin-right: 9px;
+    fill: red;
+    width: 6%;
+}
+.nth:hover{
+    color: blue;
+
+}
+.colorm{
+    display: flex;
+    justify-content: center;
+    
+}
+.final{
+    position: fixed;
+    bottom: 119px;
+    left: 80%;
+    height: 70px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    z-index: 10;
+    fill: rgb(72, 214, 72);
+
+}
+.robut {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    background-color: whitesmoke;
+    height:74px;
+    max-width: 300px;
+    width: 100%;
+}
+.circle{
+width: 100%;
+}
+.checksize{
+    width: 38px;
+    height: 30px;
+}
+.stay{
+    width: 32px;
+    height: 32px;
+    margin: 0 13px 0 13px;
+}
+.little{
+    font-size: 18px;
+}

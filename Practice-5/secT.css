@@ -1,0 +1,18 @@
+.mark {
+    width: 20px;
+    fill: #002efc;
+    background-color: transparent !important;
+}
+.head{
+    background-image: url(/assets/Ozitech\ Background\ image.webp); 
+    height: 350px;
+    filter:opacity(0.9);
+    padding-top: 100px;
+    padding-left: 40px;
+    padding-right:40px;
+    padding-bottom: 100px;
+
+}
+main{
+    max-width: 100%;
+}

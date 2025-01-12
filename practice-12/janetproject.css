@@ -1,0 +1,173 @@
+.head{
+   position: fixed !important;
+   width: 100%;
+   top: 0;
+   z-index: 2;
+   
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.home{
+    color: white !important;
+}
+.top-header{
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.svghead{
+    fill: white;
+    width: 20px;
+    margin: auto;
+}
+.nav-link{
+    color: white;
+    margin-left:20px ;
+} 
+.nav-link:hover{
+    background-color: gray;
+    color: white;
+}
+.caroselimg{
+    position: relative;
+    background-image: url(/assets/chicago.jpg) !important;
+    width: 100%;
+    height: 600px;
+    background-size: 100% 100%;
+}
+.caroseseclimg{
+    position: relative;
+    background: url(/assets/New\ york.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: 100% 100%;
+}
+.caroseltriimg{
+    position: relative;
+    background-image: url(/assets/los\ angls.jpg);
+    width: 100%;
+    background-size: 100% 100%;
+    height: 600px;
+   
+}
+.caroseltext{
+    position: absolute;
+    bottom: -0;
+    right: -0;
+    left: -0;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 70px;
+}
+.bodys{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    vertical-align: baseline;
+    align-items: center;
+    padding-top: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-sizing: inherit;
+    margin-bottom: 80px;
+    max-width: 1000px;
+}
+.tribody{
+    color: white;
+
+}
+.tourbooton{
+    border: none;
+    background-color: red;
+    color: white;
+    margin-bottom: 10px; 
+    margin-left: 20px;
+}
+.bigbody{
+    padding-top: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    max-width: 850px;
+
+}
+.Tickets{
+    text-align: start;
+}
+.topbody{
+    background-color: #000;
+    display: flex ;
+    justify-content: center;
+    
+}
+.cardbutton{
+    background-color: black;
+    color: white;
+    border: none;
+    height: 35px;
+}
+.cardbutton:hover{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+.fistcontact{
+    display: flex;
+
+}
+.svg{
+    margin-bottom: 20px;
+    margin-right: 10px;
+    width: 20px;
+}
+.contactbutton{
+   
+    margin-top: 20px;
+    background-color: black;
+    border: none;
+    height: 35px;
+    width: 60px;
+    color: white;
+    margin-left: 340px;
+}
+.contactbutton:hover{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+.fromexpand{
+    width: 100%;
+}
+.contact{
+    box-sizing: border-box;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    text-align: center;
+    max-width: 850px;
+}
+.flex{
+    display: flex;
+}
+.saerchsvg{
+    fill: white;
+    width: 20px;
+}
+.saerchbutton{
+    display: flex !important;
+    justify-content: end !important;
+  /* margin-left: 160%; */
+}
+.info{
+    max-width: 420px;
+}
+.lastimg{
+    width: 100%;
+
+}

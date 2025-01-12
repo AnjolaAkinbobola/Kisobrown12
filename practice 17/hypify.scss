@@ -1,0 +1,115 @@
+.fistdiv{
+    display: flex;
+    background-color: rgb(8, 8, 40);
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    .linkdiv{
+        display: flex;
+        color: white;
+        flex: 90;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    .loginlink{
+        display: flex;
+        color: white;
+        flex: 10;
+        margin-top: 5px;
+    }
+    .svgf{
+        fill:  #fc0077;
+        width: 10px;
+    }
+}
+.bighead{
+    //  background-color: #04032e; 
+}
+.head{
+    background-color: rgb(4, 4, 63);
+    position: sticky;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    color: white;
+    .imgflex{
+        display: flex;
+        align-items: center;
+        flex: 90;
+        color: white;
+    }
+    .itemflex{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        flex: 10;
+        margin-left: 20px;
+    }
+    .item{
+        text-decoration: none;
+        list-style: none;
+        margin-left: 20px;
+        color: white;
+    }
+    .itembutton{
+        margin-left: 20px;
+        width: 80px;
+        border: 2px solid #fc0077;
+        border-radius: 7px;
+        height: 40px;
+        background-color: #fc0077;
+        color: white;
+    }
+}
+.fristbanaer{
+    background-color: rgb(4, 4, 63);
+    color: white;
+
+}
+.bannaerword{
+    padding: 90px;
+}
+.getstarted{
+    background-color: #fc0077;
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid #fc0077;
+    color: white;
+}
+.costomized{
+    background-color: rgb(2, 2, 45);
+    margin: auto;
+    padding: 50px;
+}
+.trophty{
+    background-color: rgb(13, 13, 97);
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.sec{
+    background-color: #fc0077;
+    padding: 10px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    
+}
+.skv{
+    width: 50px;
+    fill: white;
+}
+.graphdiv{
+    margin-top: 130px;
+}
+.phrasal{
+    font-size: 10px;
+}
+
+
+
